@@ -35,9 +35,14 @@ p {
 
 .navigation-links {
   text-align: center;
+}
+
+.navigation-links a {
+  margin: 0 10px;
+
   color: var(--primary-color);
 }
 
-.navigation-links:visited {
+.navigation-links a:visited {
   color: var(--primary-color);
 }
