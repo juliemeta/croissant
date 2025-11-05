@@ -17,10 +17,6 @@ p {
   text-align: center;
 }
 
-a {
-  color: var(--primary-color);
-}
-
 .primary-container {
   background: var(--color-overlay);
   margin: 30px 100px;
@@ -32,4 +28,16 @@ a {
   max-width: 100%;
   display: block;
   margin: 30px auto;
+  border: dotted 2px rgba(255, 255, 255, 0.7);
+  border-radius: var(--primary-border-radius);
+  padding: 2px;
+}
+
+.navigation-links {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.navigation-links:visited {
+  color: var(--primary-color);
 }
