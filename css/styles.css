@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #984003;
+  --background-color: #d5a843;
+  --color-overlay: rgba(255, 255, 255, 0.6);
+  --primary-border-radius: 4px;
+}
+
+body {
+  background: var(--background-color);
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  color: var(--primary-color);
+}
+
+.primary-container {
+  background: var(--color-overlay);
+  margin: 30px 100px;
+  padding: 30px 100px;
+  border-radius: var(--primary-border-radius);
+}
+
+.photo-croissant {
+  max-width: 100%;
+  display: block;
+  margin: 30px auto;
+}
